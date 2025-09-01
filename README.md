@@ -1,5 +1,5 @@
 # Static-Hand-Gesture-Recognition-Public
-Overview of Project
+## Overview of Project
 
 This project demonstrates real-time static hand gesture recognition using MediaPipe and OpenCV. It detects and classifies four predefined gestures from a live webcam feed:
 
@@ -13,7 +13,7 @@ This project demonstrates real-time static hand gesture recognition using MediaP
 
 The system processes webcam frames, performs hand landmark detection with MediaPipe, applies simple rule-based classification logic, and displays the recognized gesture directly on the video stream.
 
-Technology Justification
+## Technology Justification
 MediaPipe Hands
 
 Provides 21 high-precision landmark points per hand.
@@ -32,7 +32,7 @@ Why this choice?
 
 MediaPipe offers direct landmark detection, which allows us to design custom gesture logic without needing external wrappers. OpenCV complements it by efficiently handling webcam streaming and visualization. This combination ensures flexibility, speed, and simplicity.
 
-Gesture Logic Explanation
+## Gesture Logic Explanation
 
 Using mediapipe.solutions.hands, we extract landmark points (x, y, z coordinates). Based on these, we define rules for finger states (open or closed):
 
@@ -69,7 +69,7 @@ Visual feedback: “Thumbs Up”.
 Any other finger combination → “Unknown”.
 
 
-Algorithm
+## Algorithm
 
 Initialize OpenCV webcam capture.
 
@@ -86,3 +86,5 @@ Apply custom classify_gesture() rules.
 Overlay gesture name + hand skeleton on frame.
 
 Display results in real time until user quits.
+
+## Output
