@@ -1,17 +1,17 @@
 # Static-Hand-Gesture-Recognition-Public By KRISHNA PRAKAASH D M
 ## Overview of Project
 
-This project demonstrates real-time static hand gesture recognition using MediaPipe and OpenCV. It detects and classifies four predefined gestures from a live webcam feed:
+This project is a real-time static hand gesture recognition system built with MediaPipe and OpenCV. It recognizes four common hand gestures from a live webcam feed:
 
-🖐 Open Palm
+Open Palm 🖐
 
-✊ Fist
+Fist ✊
 
-✌ Peace Sign (V-sign)
+Peace Sign (V-sign) ✌
 
-👍 Thumbs Up
+Thumbs Up 👍
 
-The system processes webcam frames, performs hand landmark detection with MediaPipe, applies simple rule-based classification logic, and displays the recognized gesture directly on the video stream.
+The application continuously captures video frames, detects hand landmarks using MediaPipe’s pre-trained model, and applies simple rule-based logic to classify gestures. The recognized gesture is then displayed live on the video stream, providing an interactive and responsive experience.
 
 ## Technology Justification
 MediaPipe Hands
