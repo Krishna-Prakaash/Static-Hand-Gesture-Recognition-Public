@@ -1,4 +1,4 @@
-# Static-Hand-Gesture-Recognition-Public
+# Static-Hand-Gesture-Recognition-Public By KRISHNA PRAKAASH D M
 ## Overview of Project
 
 This project demonstrates real-time static hand gesture recognition using MediaPipe and OpenCV. It detects and classifies four predefined gestures from a live webcam feed:
