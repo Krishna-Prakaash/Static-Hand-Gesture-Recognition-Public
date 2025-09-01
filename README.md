@@ -67,6 +67,8 @@ Condition: [1, 0, 0, 0, 0] (thumb open only).
 Visual feedback: “Thumbs Up”.
 
 Any other finger combination → “Unknown”.
+<img width="850" height="412" alt="image" src="https://github.com/user-attachments/assets/e161fd5c-26eb-4c40-856c-0222886b1037" />
+
 
 
 ## Algorithm
